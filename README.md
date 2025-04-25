@@ -32,8 +32,8 @@ This tool enables LLMs to parse natural language queries about paleoclimate data
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/paleopal.git
-cd paleopal
+git clone https://github.com/LinkedEarth/PaleoPAL.git
+cd PaleoPAL
 ```
 
 2. Install the required dependencies:
@@ -57,14 +57,14 @@ pip install anthropic  # For Claude models
   ollama pull deepseek-r1
   ```
 
-- **OpenAI**: Set your API key
+- **OpenAI**: Set your API key in .env file
   ```bash
-  export OPENAI_API_KEY=your_api_key_here
+  OPENAI_API_KEY=your_api_key_here
   ```
 
-- **Claude**: Set your API key
+- **Claude**: Set your API key in .env file
   ```bash
-  export ANTHROPIC_API_KEY=your_api_key_here
+  ANTHROPIC_API_KEY=your_api_key_here
   ```
 
 ## Usage
