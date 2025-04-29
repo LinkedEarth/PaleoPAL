@@ -41,6 +41,7 @@ cd PaleoPAL
 ```bash
 # Core dependencies
 pip install SPARQLWrapper
+pip install dotenv
 
 # Install at least one of these LLM providers
 pip install ollama  # For local models
